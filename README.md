@@ -40,6 +40,7 @@ g++ Tienda_de_celulares.cpp -o tienda.exe
 ```
 3. Ejecuta el programa:
 *En **Windows:** .\tienda.exe
+
 *En **Linux\Mac** ./tienda.exe
 ---
 
