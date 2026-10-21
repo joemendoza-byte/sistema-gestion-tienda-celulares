@@ -39,5 +39,15 @@ El proyecto está conformado por un único archivo fuente (`Tienda_de_celulares.
 g++ Tienda_de_celulares.cpp -o tienda.exe
 ```
 3. Ejecuta el programa:
-En Windows: .\tienda.exe
-En Linux\Mac ./tienda.exe
+*En **Windows:** .\tienda.exe
+*En **Linux\Mac** ./tienda.exe
+---
+
+## Notas sobre los Colores y la Consola
+Si los textos de colores (rojo, verde, cian) se ven con símbolos extraños (ej. `←[31m`) en Windows, sigue estos pasos antes de ejecutar el programa:
+1. Abre PowerShell o CMD.
+2. Ejecuta el siguiente comando para forzar la codificación UTF-8:
+`chcp 65001`
+3. Vuelve a ejecutar el programa y los colores se verán perfectos.
+
+---
