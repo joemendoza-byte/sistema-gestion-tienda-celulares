@@ -39,9 +39,8 @@ El proyecto está conformado por un único archivo fuente (`Tienda_de_celulares.
 g++ Tienda_de_celulares.cpp -o tienda.exe
 ```
 3. Ejecuta el programa:
-*En **Windows:** .\tienda.exe
-
-*En **Linux\Mac** ./tienda.exe
+*En **Windows**: `.\tienda.exe`
+*En **Linux\Mac**: `./tienda.exe`
 ---
 
 ## Notas sobre los Colores y la Consola
