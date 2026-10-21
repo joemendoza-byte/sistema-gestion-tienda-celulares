@@ -35,19 +35,21 @@ El proyecto está conformado por un único archivo fuente (`Tienda_de_celulares.
 ### Opción 2: Usando la Terminal (CMD, PowerShell o Linux/Mac)
 1. Abre tu terminal en la carpeta donde se encuentra el archivo `.cpp`.
 2. Compila el código usando
- ``bash
-g++ Tienda_de_celulares.cpp -o tienda.exe`
+```bash
+g++ Tienda_de_celulares.cpp -o tienda.exe
+```
 3. Ejecuta el programa:
 * En **Windows**: `.\tienda.exe`
 * En **Linux\Mac**: `./tienda.exe`
----
 
+---
 ## Notas sobre los Colores y la Consola
 Si los textos de colores (rojo, verde, cian) se ven con símbolos extraños (ej. `←[31m`) en Windows, sigue estos pasos antes de ejecutar el programa:
 1. Abre PowerShell o CMD.
 2. Ejecuta el siguiente comando para forzar la codificación UTF-8:
  ```bash
-chcp 65001`
+chcp 65001
+```
 4. Vuelve a ejecutar el programa y los colores se verán perfectos.
 
 ---
