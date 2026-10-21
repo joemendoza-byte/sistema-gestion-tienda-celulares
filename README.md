@@ -53,3 +53,4 @@ chcp 65001
 4. Vuelve a ejecutar el programa y los colores se verán perfectos.
 
 ---
+![Diagrama UML del Sistema](UML/UML_Tienda_Celulares.png)
