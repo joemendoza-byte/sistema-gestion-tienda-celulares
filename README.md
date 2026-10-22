@@ -2,10 +2,6 @@
 
 Este repositorio contiene el código fuente del proyecto final de la primera unidad para el curso de **Programación Orientada a Objetos I**. Consiste en un sistema transaccional y administrativo por consola, desarrollado en C++, diseñado para gestionar las ventas, el inventario y el personal de una tienda de dispositivos móviles.
 
-##  Video de Exposición
-Puedes ver la explicación completa del código, la arquitectura y la demostración en vivo aquí:
- **[Ver Video de Exposición](AQUÍ_PEGAS_EL_ENLACE_DE_TU_VIDEO)**
-
 ## Integrantes del Equipo
 * Huanca Choquehuanca Juan Jose
 * Huallpa Aquino Freddy Franklin
@@ -53,4 +49,10 @@ chcp 65001
 4. Vuelve a ejecutar el programa y los colores se verán perfectos.
 
 ---
+## Material desarrollado antes de tocar código
 ![Diagrama UML del Sistema](UML/UML_Tienda_Celulares.png)
+
+---
+##  Video de Exposición
+Puedes ver la exposición desarrollada sobre el código aquí:
+ **[Ver Video de Exposición](AQUÍ_PEGAS_EL_ENLACE_DE_TU_VIDEO)**
