@@ -1,4 +1,4 @@
-#  SIGET-Cell: Sistema de Gestión Integral para Tienda de Celulares
+#  Sistema de Gestión Integral para Tienda de Celulares
 
 Este repositorio contiene el código fuente del proyecto final de la primera unidad para el curso de **Programación Orientada a Objetos I**. Consiste en un sistema transaccional y administrativo por consola, desarrollado en C++, diseñado para gestionar las ventas, el inventario y el personal de una tienda de dispositivos móviles.
 
