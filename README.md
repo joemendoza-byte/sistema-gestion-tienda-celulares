@@ -69,6 +69,9 @@ El sistema bloquea la transacción si el cliente no cuenta con el saldo suficien
 ![Pago de Nomina](Capturas/Pago_Nomina.png)
 
 ---
-##  Video de Exposición
+## Video de Exposición
 Puedes ver la exposición desarrollada sobre el código aquí:
- **[https://youtu.be/l1CCZJ57hzg?si=0CN59KjMH5cGrYht]**
+**[Ver video de Exposición](https://youtu.be/l1CCZJ57hzg?si=0CN59KjMH5cGrYht)**
+
+*Si el enlace anterior no redirige correctamente, puedes copiar y pegar esta dirección en tu navegador:*
+`https://youtu.be/l1CCZJ57hzg`
