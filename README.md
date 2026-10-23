@@ -8,7 +8,7 @@ Este repositorio contiene el código fuente del proyecto final de la primera uni
 * Mendoza Tola Joe Aldair
 
 ## Características Técnicas (POO)
-* **Herencia y Abstracción:** Implementación de clases abstractas (`Persona`, `Producto`) con clases derivadas (`Cliente`, `Trabajador`, `Celular`, `Accesorios`).
+* **Herencia y Abstracción:** Implementa clases abstractas (`Persona`, `Producto`) con clases derivadas (`Cliente`, `Trabajador`, `Celular`, `Accesorios`).
 * **Polimorfismo:** Uso de métodos virtuales puros (`mostrarFicha()`) para gestionar un catálogo mixto de productos mediante un arreglo de punteros (`vector<Producto*>`).
 * **Gestión Dinámica de Memoria:** Uso de punteros, asignación de memoria (`new`) y liberación segura con destructores virtuales para evitar *memory leaks*.
 * **Lógica Transaccional:** Filtro Financiero que valida el presupuesto del cliente antes de concretar una compra.
