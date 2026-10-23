@@ -76,5 +76,5 @@ Puedes ver la exposición desarrollada sobre el código aquí:
 
 *Si el enlace anterior no redirige correctamente, puedes copiar y pegar esta dirección en tu navegador:*
  ```bash
-https://youtu.be/l1CCZJ57hzg`
+https://youtu.be/l1CCZJ57hzg
 ```
