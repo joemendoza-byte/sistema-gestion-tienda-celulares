@@ -74,4 +74,6 @@ Puedes ver la exposición desarrollada sobre el código aquí:
 **[Ver video de Exposición](https://youtu.be/l1CCZJ57hzg?si=0CN59KjMH5cGrYht)**
 
 *Si el enlace anterior no redirige correctamente, puedes copiar y pegar esta dirección en tu navegador:*
-`https://youtu.be/l1CCZJ57hzg`
+ ```bash
+https://youtu.be/l1CCZJ57hzg`
+```
