@@ -28,6 +28,10 @@ El proyecto está conformado por un único archivo fuente (`Tienda_de_celulares.
 4. Presiona el botón de **"Play"** (Run Code) en la esquina superior derecha, o usa el atajo `Ctrl + F5`.
 5. *Nota para Windows:* Si el botón de Play da error por una configuración previa, usa la Opción 2 (Terminal).
 
+> **Nota sobre un error común en VS Code (exit code: 1):**
+> Durante las pruebas del proyecto, nos encontramos con un error de compilación al pulsar el botón "Play". Esto ocurría porque el editor guardaba una configuración de tareas antigua que intentaba enlazar librerías gráficas que no correspondían a este código, como -lbgi o -lgdi32. 
+> *Solución:* Si te aparece este error, ignora el botón de Play y usa la *Opción 2 (Terminal)*. Al compilar directamente con g++, el código se ejecutará sin ningún problema.
+
 ### Opción 2: Usando la Terminal (CMD, PowerShell o Linux/Mac)
 1. Abre tu terminal en la carpeta donde se encuentra el archivo `.cpp`.
 2. Compila el código usando
@@ -47,7 +51,6 @@ Si los textos de colores (rojo, verde, cian) se ven con símbolos extraños (ej.
 chcp 65001
 ```
 3. Vuelve a ejecutar el programa y los colores se verán perfectos.
-
 ---
 ![Diagrama UML del Sistema](UML/UML_Tienda_Celulares.png)
 
