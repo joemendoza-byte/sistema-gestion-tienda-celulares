@@ -66,7 +66,7 @@ El sistema bloquea la transacción si el cliente no cuenta con el saldo suficien
 ![Filtro Financiero](Capturas/Filtro_Financiero.png)
 
 ### 3. Transacción Exitosa y Actualización de Stock
-![Compra Exitosa](Capturas/Compra_exitosa.png)
+![Compra exitosa](Capturas/Compra_exitosa.png)
 
 ### 4. Módulo de Administración (Pago de Nómina)
 ![Pago de Nomina](Capturas/Pago_Nomina.png)
