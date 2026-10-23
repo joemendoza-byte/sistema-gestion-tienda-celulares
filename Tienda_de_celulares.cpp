@@ -454,15 +454,18 @@ int main() {
                         Venta* nuevaCompra = new Venta(9001, comprobanteElegido, clienteActual, personal[1], tipoEntregaLocal);
                         int prodId = 0, nroLinea = 1;
                         
-                        cout << "\nIngrese los IDs. Digite '0' para cerrar el Carrito e ir a Caja.\n" << endl;
+                        cout << "\n" << CIAN << "Ingrese los IDs de los productos." << RESET << endl;
+                        cout << AMARILLO << "IMPORTANTE: Escriba '0' (cero) y pulse Enter para CERRAR EL CARRITO e ir a Caja." << RESET << "\n" << endl;
                         do {
-                            prodId = solicitarEntero("ID del Producto: ");
+                            prodId = solicitarEntero("\nID del Producto (o escriba 0 para ir a Caja): ");
                             if (prodId > 0 && prodId <= (int)inventario.size()) {
                                 int cant = solicitarEntero("Cantidad de unidades: ");
                                 if (cant > 0) {
                                     LineaVenta linea(nroLinea++, inventario[prodId - 1], cant, garantiaComun);
                                     nuevaCompra->agregarLinea(linea);
                                     cout << VERDE << "[OK] " << RESET << "Agregado al flujo transaccional." << endl;
+                                    cout << AMARILLO << NEGRITA << "AVISO: Para concluir la compra, escriba '0' y pulse Enter" << RESET;
+                                    this_thread::sleep_for(chrono::milliseconds(1000)); // Pausa de 1 segundo
                                 }
                             } else if (prodId != 0) {
                                 cout << ROJO << "[!] Alerta: ID fuera de rango." << RESET << endl;
@@ -486,7 +489,7 @@ int main() {
 
         } else if (rolSeleccionado == 2) { // ROL: CAJERO
             system("cls");
-            cout << AMARILLO << "\n--- SELECCIONE SU USUARIO CAJERO2 ---" << RESET << endl;
+            cout << AMARILLO << "\n--- SELECCIONE SU PERFIL DE CAJERO ---" << RESET << endl;
             cout << "1. " << personal[1]->getNombre() << endl;
             cout << "2. " << personal[2]->getNombre() << endl;
             cout << "3. " << personal[3]->getNombre() << endl;
@@ -567,7 +570,7 @@ int main() {
 
     } while (rolSeleccionado != 4);
 
-    // LIMPIEZA SEGURA
+    // LIMPIEZA 
     for (auto prod : inventario) delete prod;
     inventario.clear();
     for (auto pers : personal) delete pers;
