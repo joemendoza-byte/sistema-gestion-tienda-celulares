@@ -52,6 +52,23 @@ chcp 65001
 ![Diagrama UML del Sistema](UML/UML_Tienda_Celulares.png)
 
 ---
+
+## 📸 Demostración del Sistema (Evidencia de Ejecución)
+
+### 1. Menú Principal y Control de Roles
+![Menu Principal](Capturas/Menu_principal.png)
+
+### 2. Validación del Filtro Financiero
+El sistema bloquea la transacción si el cliente no cuenta con el saldo suficiente.
+![Filtro Financiero](Capturas/Filtro_Financiero.png)
+
+### 3. Transacción Exitosa y Actualización de Stock
+![Compra Exitosa](Capturas/Compra_exitosa.png)
+
+### 4. Módulo de Administración (Pago de Nómina)
+![Pago de Nomina](Capturas/Pago_Nomina.png)
+
+---
 ##  Video de Exposición
 Puedes ver la exposición desarrollada sobre el código aquí:
  **[https://youtu.be/l1CCZJ57hzg?si=0CN59KjMH5cGrYht](AQUÍ_PEGAS_EL_ENLACE_DE_TU_VIDEO)**
