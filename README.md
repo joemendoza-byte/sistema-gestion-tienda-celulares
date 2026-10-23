@@ -53,7 +53,7 @@ chcp 65001
 
 ---
 
-## 📸 Demostración del Sistema (Evidencia de Ejecución)
+## Demostración del Sistema (Evidencia de Ejecución)
 
 ### 1. Menú Principal y Control de Roles
 ![Menu Principal](Capturas/Menu_principal.png)
