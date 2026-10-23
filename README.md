@@ -54,4 +54,4 @@ chcp 65001
 ---
 ##  Video de Exposición
 Puedes ver la exposición desarrollada sobre el código aquí:
- **[Ver Video de Exposición](AQUÍ_PEGAS_EL_ENLACE_DE_TU_VIDEO)**
+ **[https://youtu.be/l1CCZJ57hzg?si=0CN59KjMH5cGrYht](AQUÍ_PEGAS_EL_ENLACE_DE_TU_VIDEO)**
