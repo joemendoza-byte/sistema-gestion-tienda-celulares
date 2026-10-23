@@ -2,12 +2,12 @@
 
 Este repositorio contiene el código fuente del proyecto final de la primera unidad para el curso de **Programación Orientada a Objetos I**. Consiste en un sistema transaccional y administrativo por consola, desarrollado en C++, diseñado para gestionar las ventas, el inventario y el personal de una tienda de dispositivos móviles.
 
-## Integrantes del Equipo
+## Integrantes del equipo
 * Huanca Choquehuanca Juan Jose
 * Huallpa Aquino Freddy Franklin
 * Mendoza Tola Joe Aldair
 
-## Características Técnicas (POO)
+## Características técnicas (POO)
 * **Herencia y Abstracción:** Implementa clases abstractas (`Persona`, `Producto`) con clases derivadas (`Cliente`, `Trabajador`, `Celular`, `Accesorios`).
 * **Polimorfismo:** Uso de métodos virtuales puros (`mostrarFicha()`) para gestionar un catálogo mixto de productos mediante un arreglo de punteros (`vector<Producto*>`).
 * **Gestión Dinámica de Memoria:** Uso de punteros, asignación de memoria (`new`) y liberación segura con destructores virtuales para evitar *memory leaks*.
