@@ -46,7 +46,7 @@ Si los textos de colores (rojo, verde, cian) se ven con símbolos extraños (ej.
  ```bash
 chcp 65001
 ```
-4. Vuelve a ejecutar el programa y los colores se verán perfectos.
+3. Vuelve a ejecutar el programa y los colores se verán perfectos.
 
 ---
 ![Diagrama UML del Sistema](UML/UML_Tienda_Celulares.png)
